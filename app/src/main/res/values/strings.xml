@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">SHDC Contacts</string>
+
+    <string name="hello_world">SHDC Contacts</string>
+    <string name="action_settings">Settings</string>
+    <string name="button_contact">Access Contacts</string>
+    <string name="button_web">Visit ROHM Homepage</string>
+    <string name="button_tel">Call Shanghai Office</string>
+    <string name="title_activity_base">BaseActivity</string>
+
+</resources>
