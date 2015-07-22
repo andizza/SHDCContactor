@@ -1,0 +1,61 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="sensorapp.shdccontactor.ContactActivityFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/visible_layout"
+        android:orientation="vertical"
+        android:visibility="invisible"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/dcMember_chiName"
+            android:gravity="start"
+            android:padding="10dp"
+            android:textSize="20sp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/dcMember_engName"
+            android:gravity="start"
+            android:padding="10dp"
+            android:textSize="16sp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/dcMember_mobNumber"
+            android:gravity="start"
+            android:padding="10dp"
+            android:textSize="16sp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/dcMember_email"
+            android:gravity="start"
+            android:padding="10dp"
+            android:textSize="16sp"
+            />
+    </LinearLayout>
+
+    <ImageView
+        android:contentDescription="@string/splitter"
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/split_line_vertical"
+        />
+
+</RelativeLayout>
