@@ -8,6 +8,7 @@
     <string name="button_tel">Call Shanghai Office</string>
     <string name="title_activity_base">BaseActivity</string>
     <string name="title_activity_contact">ContactActivity</string>
+    <string name="title_activity_contact_content">ContactContentActivity</string>
     <string name="splitter">splitter</string>
 
 </resources>

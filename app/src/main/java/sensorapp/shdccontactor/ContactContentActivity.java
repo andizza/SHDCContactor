@@ -3,7 +3,7 @@ package sensorapp.shdccontactor;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
-import android.view.Window;
+//import android.view.Window;
 
 public class ContactContentActivity extends BaseActivity {
     public static void actionStart(Context context, String chiName, String engName, String email,

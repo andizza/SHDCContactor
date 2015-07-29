@@ -23,6 +23,10 @@
             android:name=".ContactActivity"
             android:label="@string/title_activity_contact" >
         </activity>
+        <activity
+        android:name=".ContactContentActivity"
+        android:label="@string/title_activity_contact_content" >
+    </activity>
     </application>
 
 </manifest>
