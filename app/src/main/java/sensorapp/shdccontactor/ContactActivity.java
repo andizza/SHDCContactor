@@ -1,6 +1,7 @@
 package sensorapp.shdccontactor;
 
 import android.os.Bundle;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 
@@ -10,6 +11,7 @@ public class ContactActivity extends BaseActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        Log.d("ContactActivity", "Coming in.");
         setContentView(R.layout.activity_contact_layout);
     }
 
@@ -35,4 +37,5 @@ public class ContactActivity extends BaseActivity {
 
         return super.onOptionsItemSelected(item);
     }
+
 }

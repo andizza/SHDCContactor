@@ -29,6 +29,14 @@
             android:textSize="16sp"
             />
 
+        <ImageView
+            android:contentDescription="@string/splitter"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/redline"
+            />
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -55,7 +63,7 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
         android:scaleType="fitXY"
-        android:src="@drawable/split_line_vertical"
+        android:src="@drawable/verticalline"
         />
 
 </RelativeLayout>
